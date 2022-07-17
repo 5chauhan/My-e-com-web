@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-com Website</title>
+
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-cart"></i> My E-com Website </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#Products">Products</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="content-section" style="max-width:500px">
+            <img class="mySlides" src="image/img-11.jpg">
+            <img class="mySlides" src="image/img-12.jpg">
+            <img class="mySlides" src="image/img-13.jpg">
+            <img class="mySlides" src="image/img-14.jpg">
+            <img class="mySlides" src="image/img-15.jpg">
+            <img class="mySlides" src="image/img-16.jpg">
+            <img class="mySlides" src="image/img-17.jpg">
+            <img class="mySlides" src="image/img-18.jpg">
+            <img class="mySlides" src="image/img-19.jpg">
+            <img class="mySlides" src="image/img-20.jpg">
+        </div>
+    </section>
+
+
+    <section class="Products" id="Products">
+
+        <h1 class="heading"><span>Products</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/gadgets.jpg" alt="">
+                <h3>Electronics</h3>
+
+            </div>
+
+            <div class="box">
+                <img src="image/mob.jpg" alt="">
+                <h3>Mobiles</h3>
+
+            </div>
+            <div class="box">
+                <img src="image/groceries.jpg" alt="">
+                <h3>Groceries</h3>
+
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/toys.jpg" alt="">
+                <h3>Toys</h3>
+
+            </div>
+
+            <div class="box">
+                <img src="image/appliances.jpg" alt="">
+                <h3>Appliances</h3>
+
+            </div>
+
+            <div class="box">
+                <img src="image/clothes1.jpg" alt="">
+                <h3>Clothes</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="features" id="features">
+
+        <h1 class="heading"> <span>Popular Products</span> </h1>
+
+
+        <div style="display: flex;justify-content: center; align-items: center; margin: 5px; padding: 5px; border: 5px; font-size: large;"
+            class="box-container">
+
+            <div class="box" style="margin: 10px; text-align: center;">
+                <img src="image/laptop.jpg" width="350px" padding="5px" alt="">
+                <h3>Laptops</h3>
+
+            </div>
+
+            <div class="box" style="margin: 10px; text-align: center;">
+                <img src="image/glasses.jpg" width="300px" padding="5px" alt="">
+                <h3>Sunglasses</h3>
+
+            </div>
+
+            <div class="box" style="margin: 10px; text-align: center;">
+                <img src="image/camera.jpg" width="300px" padding="5px" alt="">
+                <h3>Cameras</h3>
+
+            </div>
+            <div class="box" style="margin: 10px; text-align: center;">
+                <img src="image/groceries.jpg" width="268px" padding="5px" alt="">
+                <h3>Groceries</h3>
+
+            </div>
+            <div class="box" style="margin: 10px; text-align: center;">
+                <img src="image/clothes.jpg" width="300px" padding="5px" alt="">
+                <h3>Accessories</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> My E-com website <i class="fas fa-shopping-cart"></i> </h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> india</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <input type="email" placeholder="your email" class="email">
+            </div>
+        </div>
+
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
