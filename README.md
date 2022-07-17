@@ -1,3 +1,3 @@
 # My-e-com-web
 
-https://magenta-belekoy-7dc568.netlify.app/
+https://5chauhan.github.io/My-e-com-web/
